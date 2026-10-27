@@ -1,0 +1,10 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "unifi-ddns"
+main = "src/index.ts"
+compatibility_date = "2024-12-18"
+
+[observability]
+enabled = true
+
+[placement]
+mode = "smart"
